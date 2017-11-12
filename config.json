@@ -1,0 +1,44 @@
+{
+  "websites" : {
+    "autouncle" : {
+        "url" : "https://www.autouncle.de/de/gebrauchtwagen/",
+        "paging" : "page",
+        "cars" : [
+          {
+            "name": "BMW 5er Kombi Automatik Diesel",
+            "filters" : {
+              "s[min_year]" : "2007",
+              "s[brands_models][][brand]": "BMW",
+              "s[brands_models][][model_name]": "5-Series",
+              "s[body_types][]" : "Stationcar",
+              "s[has_auto_gear]" : true,
+              "s[fuel_types]": "Diesel"
+            }
+          },
+          {
+            "name": "Skoda Superb Kombi Automatik Diesel",
+            "filters" : {
+              "s[min_year]" : "2007",
+              "s[brands_models][][brand]": "Skoda",
+              "s[brands_models][][model_name]": "Superb",
+              "s[body_types][]" : "Stationcar",
+              "s[has_auto_gear]" : true,
+              "s[fuel_types]": "Diesel"
+            }
+          },
+          {
+            "name": "VW Passat Kombi Automatik Diesel",
+            "filters" : {
+              "s[min_year]" : "2007",
+              "s[brands_models][][brand]": "VW",
+              "s[brands_models][][model_name]": "Passat",
+              "s[body_types][]" : "Stationcar",
+              "s[has_auto_gear]" : true,
+              "s[fuel_types]": "Diesel"
+            }
+          }
+        ]
+    },
+    "autoscout" : {}
+  }
+}
