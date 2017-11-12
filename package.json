@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "async": "*",
+    "cheerio": "*",
+    "request": "*",
+    "sanitize-filename": "*"
+  }
+}
