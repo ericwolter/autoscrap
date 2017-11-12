@@ -58,3 +58,5 @@ typings/
 .env
 
 cars.csv
+package-lock.json
+data/
